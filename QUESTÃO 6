@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main (){
+	
+	int hora, velocidade, gasolina, distancia;
+	
+printf ("Digite o tempo gasto na viagem em horas: \n");
+scanf ("%d",&hora);
+
+printf ("Digite a velocidade media em KM por hora gasto na viagem: \n");
+scanf ("%d",&velocidade);
+	
+	distancia= velocidade * hora;
+	
+	gasolina = distancia / 12;
+	
+	printf ("O total gasto de gasolina em litros e: %d",gasolina);
+	
+	return 0;
+}

@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main (){
+
+float fabrica, distribuidor, imposto, total;
+
+printf ("Digite o preco do custo de fabrica do carro: \n");
+scanf (" %f",&fabrica);
+
+distribuidor= fabrica * (28.0/100.0);
+imposto= fabrica * (45.0/100.0);
+total= fabrica + distribuidor + imposto;
+
+printf ("O valor final sera: %0.2f ",total);
+
+return 0;
+	}

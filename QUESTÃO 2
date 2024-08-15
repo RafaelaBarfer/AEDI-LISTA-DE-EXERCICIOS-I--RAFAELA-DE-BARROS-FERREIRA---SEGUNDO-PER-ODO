@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <math.h>
+
+int main (){
+	
+	float n1, n2,ponto1, ponto2, ponto3;
+	
+	printf ("Digite o primeiro numero: ");
+	scanf ("%f", &n1);
+	
+	printf ("Digite o segundo numero: ");
+	scanf ("%f", &n2);
+	
+	ponto1= n1 *2;
+	
+	ponto2= (n1*3)+ (n2/2);
+	
+	ponto3= sqrt (n1+n2);
+	
+	printf("O resultado do produto do dobro do primeiro numero digitado e: %2.f \n", ponto1);
+	
+	printf("O resultado da soma do triplo do primeiro numero com a metade do segundo número e: %2.f \n", ponto2);
+	
+	printf("O resultado da raiz quadrada da soma do primeiro número com o segundo numero e: %2.f \n", ponto3);
+	
+	return 0;
+}
